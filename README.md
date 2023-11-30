@@ -10,7 +10,7 @@ pip install django
 pip install moviepy
 ```
 ##### Imagemagic:
-На windows может потребоваться ручная установка (https://imagemagick.org/script/download.php)
+Может потребоваться ручная установка (https://imagemagick.org/script/download.php)
 ## Запуск
 Для запуска загрузите репозиторий и запустите локальный сервер:
 ```bash
