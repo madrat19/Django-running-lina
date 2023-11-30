@@ -14,7 +14,7 @@ pip install moviepy
 ## Запуск
 Для запуска загрузите репозиторий и запустите локальный сервер:
 ```bash
-cd Django_running_line/runningLine
+cd django_running_line/runningLine
 ```
 ```bash
 python manage.py runserver
