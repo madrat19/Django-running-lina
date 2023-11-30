@@ -19,3 +19,5 @@ cd django_running_line/runningLine
 ```bash
 python manage.py runserver
 ```
+## Использование 
+Откройте браузер и перейдите по адресу http://127.0.0.1:8000/ 
