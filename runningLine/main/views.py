@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.http import FileResponse
+from .models import Requests
+import datetime
 
 from moviepy.editor import *
 from os import path
@@ -13,6 +15,8 @@ def main(request):
                         </div>''')
 
 def runningLine(request):
+        
+        save(request)
 
         # current_directory = os.path.dirname(os.path.realpath(__file__))
 
@@ -38,3 +42,8 @@ def runningLine(request):
         response['Content-Type']='application/octet-stream'  
         response['Content-Disposition']='attachment;filename="Running line.mp4"'  
         return response
+
+
+def save(request):   
+    saved_request = Requests.objects.create(request=request.path[1:], date=datetime.datetime.now())
+    saved_request.save()
