@@ -9,5 +9,5 @@ pip install django
 ```bash
 pip install moviepy
 ```
-##### Imagemagic 
+##### Imagemagic:
 На windows может потребоваться ручная установка (https://imagemagick.org/script/download.php)
