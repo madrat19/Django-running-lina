@@ -24,8 +24,10 @@ python manage.py runserver
 ```
 http://127.0.0.1:8000/ 
 ```
-Добавьте в адресную строку браузера '/' и любой текст за ним.
-Видео сразу же сохранится вам в загрузки.
-![image](https://github.com/madrat19/django_running_line/assets/53086958/e186298c-4cc2-430f-8554-13e27fc6cfa8)
+#####Добавьте в адресную строку браузера '/' и любой текст за ним.
+#####Видео сразу же сохранится вам в загрузки.
+
+![image](https://github.com/madrat19/django_running_line/assets/53086958/893afd7c-dce1-4af0-9ab1-a2438c6ef4bd)
+
 
 
