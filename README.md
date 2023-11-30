@@ -1,7 +1,7 @@
 # Бегущая строка на Django
 ## Зависимости
 ##### Для работы приложения потребуется установить несколько библиотек:
-#####   django:  
+##### django:  
 pip install django
 ##### moviepy: 
 pip install moviepy
