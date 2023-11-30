@@ -1,13 +1,13 @@
 # Бегущая строка на Django
 ## Зависимости
 ##### Для работы приложения потребуется установить несколько библиотек:
-##### django:
+##### Django:
 ```bash
 pip install django
 ```
-##### moviepy:
+##### Moviepy:
 ```bash
 pip install moviepy
 ```
-##### imagemagic 
+##### Imagemagic 
 На windows может потребоваться ручная установка (https://imagemagick.org/script/download.php)
